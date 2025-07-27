@@ -1,0 +1,2 @@
+select*
+from bmw_car_sales_classification
