@@ -1,1 +1,0 @@
--- Average price of model in 
