@@ -1,3 +1,11 @@
+-- Whole World
+ SELECT SUM(Sales_Volume), color,year
+FROM bmw_car_sales_classification
+where year = '2024'
+Group by color
+order by SUM( Sales_Volume) desc;
+
+
 -- FAVOURITE CAR COLOUR IN EACH CONTINENT
  
 -- Most popular Colour in Asia 
