@@ -1,3 +1,11 @@
+-- Whole World
+ SELECT SUM(Sales_Volume), Model,year
+FROM bmw_car_sales_classification
+where year = '2024'
+Group by Model
+order by SUM( Sales_Volume) desc;
+
+
 -- CAR MOST SOLD IN ASIA
 SELECT SUM( Sales_Volume), model, region, year
 FROM bmw_car_sales_classification
