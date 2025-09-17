@@ -1,4 +1,4 @@
-/* First query below is If I want a summary of highest vehicles sold in each continent in 2024. To find for each continent,
+/* First query below is If I want a summary of lowest vehicles sold in each continent in 2024. To find for each continent,
 I also can specify add the continent in the where clause instead of using limits( results will be the same, 
 it's just a diff way to query The rest of query stays the same. */
 
